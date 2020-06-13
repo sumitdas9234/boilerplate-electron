@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        opacity: 90%;
+      }
+      .header {
+        padding-top: 15%;
+        margin: 0;
+        text-align: center;
+        color: #2f3542;
+        font-family: "Raleway", sans-serif;
+        font-weight: lighter;
+        font-size: 52px;
+      }
+      pre code {
+        background-color: #2f3542;
+        border-radius: 20px;
+        display: block;
+        padding: 20px;
+        width: 60%;
+        margin-left: 20%;
+        color: #dfe4ea;
+      }
+      footer {
+        margin-top: 12%;
+        padding: auto;
+        color: #2f3542;
+        text-align: center;
+        font-family: "Roboto Mono", monospace;
+        font-weight: bolder;
+        font-size: 12px;
+      }
+      img{
+          margin : 0;
+          padding : 0;
+      }
+      .icon{
+          width:16px;
+          height:16px;
+          margin:0;
+          padding:0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="electron-titlebar" class="drag"></div>
+    <h1 class="header">ElectronJS</h1>
+    <pre>
+      <code>
+        # Clone the Repository
+        $ git clone git@github.com:sumitdas9234/ElectronJS.git
+
+        # Install the node packages
+        $ cd ElectronJS/boilerplate-electron/
+        $ npm install
+
+        # Start the Application
+        $ npm start
+      </code>
+    </pre>
+    <footer>
+      made with <img class ="icon" src="../assets/images/heart.svg"></img> by AlmostEngineer.
+    </footer>
+    <script>
+      require("electron-titlebar");
+    </script>
+  </body>
+</html>

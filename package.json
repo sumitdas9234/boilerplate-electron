@@ -1,0 +1,35 @@
+{
+  "name": "boilerplate-electron",
+  "version": "1.0.0",
+  "description": "A simple boilerplate with some custom-scripts and project structure!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --watch . --exec \"electron . --debug\"",
+    "reset": "git reset --hard",
+    "debug": "electron --inspect-brk ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitdas9234/ElectronJS.git"
+  },
+  "keywords": [
+    "Electron",
+    "Boilerplate",
+    "Custom",
+    "Script",
+    "App"
+  ],
+  "author": "Sumit Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumitdas9234/ElectronJS/issues"
+  },
+  "homepage": "https://github.com/sumitdas9234/ElectronJS#readme",
+  "devDependencies": {
+    "electron": "^9.0.4",
+    "electron-titlebar": "0.0.3",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}
