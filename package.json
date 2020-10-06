@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/sumitdas9234/ElectronJS#readme",
   "devDependencies": {
-    "electron": "^9.0.4",
+    "electron": "^9.3.1",
     "electron-titlebar": "0.0.3",
     "nodemon": "^2.0.4",
     "pug": "^3.0.0"
